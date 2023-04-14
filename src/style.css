@@ -13,6 +13,11 @@
   main {
     border: 25px solid #32617B;
   }
+
+.conteudoprincipal{
+	margin:10px;
+	text-align:justify;
+}
   
   .initial {
     color: #32617B;
