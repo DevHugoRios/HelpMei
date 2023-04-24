@@ -1,164 +1,168 @@
-
 header {
     height: 10%;
-  }
-  
-  .textoprincipal {
+}
+
+.textoprincipal {
     padding: 3%;
     font-size: 1.2em;
-  }
-  @media screen and (max-width: 767px) {
-    header {
-      height: auto;
-    }
-    
-    .menu {
-      display: none;
-    }
-    
-    .menu-toggle {
-      display: block;
-    }
-    
-    .menu-button-container {
-      display: block;
-    }
-    
-    .textoprincipal {
-      padding: 5%;
-      font-size: 1em;
-    }
-  }
-  
-  
-  @media screen and (min-width: 768px) and (max-width: 1024px) {
-    header {
-      height: auto;
-    }
-    
-    .menu {
-      display: none;
-    }
-    
-    .menu-toggle {
-      display: block;
-    }
-    
-    .menu-button-container {
-      display: block;
-    }
-    
-    .textoprincipal {
-      padding: 5%;
-      font-size: 1em;
-    }
-  }
-  
+}
 
-  @media screen and (min-width: 1025px) {
+@media screen and (max-width: 767px) {
     header {
-      height: 10%;
+        height: auto;
     }
-    
-    .menu {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-      height: 100%;
-    }
-    
-    .menu-toggle {
-      display: none;
-    }
-    
-    .menu-button-container {
-      display: none;
-    }
-    
-    .textoprincipal {
-      padding: 3%;
-      font-size: 1.2em;
-    }
-  }
 
- 
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-button-container {
+        display: block;
+    }
+
+    .textoprincipal {
+        padding: 5%;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        height: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-button-container {
+        display: block;
+    }
+
+    .textoprincipal {
+        padding: 5%;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    header {
+        height: 10%;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-button-container {
+        display: none;
+    }
+
+    .textoprincipal {
+        padding: 3%;
+        font-size: 1.2em;
+    }
+}
+
+
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2%;
-  }
-  
+}
+
 
 
 @media (max-width: 768px) {
     .top-nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
-    
-    .top-nav > div {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      margin-bottom: 10px;
-    }
-    
-    #title {
-      font-size: 24px;
-    }
-    
-    .menu {
-      display: none;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      width: 100%;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      padding: 10px;
-      z-index: 1;
-    }
-    
-    #menu-toggle:checked + .menu {
-      display: block;
-    }
-    
-    .menu li {
-      display: block;
-      margin: 10px 0;
-    }
-  }
 
- 
-  .conteudo {
+    .top-nav>div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #title {
+        font-size: 24px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    #menu-toggle:checked+.menu {
+        display: block;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+.conteudo {
     width: 100%;
     margin: 0 auto;
     max-width: 960px;
-  }
-  .initial {
+}
+
+.initial {
     font-size: 2em;
     margin-bottom: 1em;
-  }
-  .carrosel {
+}
+
+.carrosel {
     margin-top: 2em;
-  }
-  .carousel-item img {
+}
+
+.carousel-item img {
     width: 100%;
     height: auto;
-  }
+}
 
- 
-  @media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) {
     .initial {
-      font-size: 1.5em;
-      margin-bottom: 0.5em;
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
     }
+
     .carousel-item img {
-      height: 200px;
+        height: 200px;
     }
-  }
+}
