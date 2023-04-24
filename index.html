@@ -1,234 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br"> <!--SEO-->
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1,shrink-to-fit=no">
-    <link rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="src/style.css">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,
+  initial-scale=1,shrink-to-fit=no">
+<link rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+<link rel="stylesheet" href="src/style.css">
 
-    <link rel="shortcut icon" href="src/icone1.png" type="image/x-icon">
-    <title>HelpMei</title>
-    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
-    <!-- Google tag (gtag.js) -->
-    <script async
-      src="https://www.googletagmanager.com/gtag/js?id=G-NCPKVTJWWE"></script>
-    <script>
+<link rel="shortcut icon" href="src/icone1.png" type="image/x-icon">
+<title>HelpMei</title>
+<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+<!-- Google tag (gtag.js) -->
+<script async
+  src="https://www.googletagmanager.com/gtag/js?id=G-NCPKVTJWWE"></script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-NCPKVTJWWE');
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Vina+Sans&display=swap" rel="stylesheet">
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Vina+Sans&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <!-- cookies alert -->
-    <div class="alert alert-dark alert-dismissible fade show cookie-alert d-flex
-      justify-content-between align-items-center" role="alert">
-      <div class="cookie-alert-text">
-        Nós da HelpMEi usamos cookies para aprimorar sua experiência no website.
-        Ao continuar navegando, você concorda com o uso de cookies.
-        <a href="#" class="cookie-policy-link">Saiba mais</a>.
-      </div>
-      <button type="button" class="btn btn-primary cookie-alert-btn"
-        data-dismiss="alert" aria-label="Close">Aceitar</button>
-    </div>
-
-    <header>
-      <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid" id="container">
-            <a class="navbar-brand" href="index.html">
-            <img src="src/icon.png" class="d-inline-block align-text-top" id="icone"></a>
-    
-            <a id="navegacao" href="index.html"><p class="nav1">Início</p></a>
-            <a id="navegacao" href="fornecedores.html"><p class="nav1">Fornecedores</p></a>
-        </div>
-      </nav>
-    </header>
-
-
-
-
-    <!-- <header> <--cabeçalho com icone, nome do site e navegação--
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <img class="icon" src="src/icon.png"> <--ÍCONE --
-          <a class="navbar-brand" href="index.html">Help Mei</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarText" aria-controls="navbarText"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"
-                  href="index.html">Início</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="fornecedores.html">Fornecedores</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header> -->
-
-
-    <main> <!--Parte principal de texto-->
-
-<div class="conteudo">
-  
-        <div><p class="initial">Início</p></div>
-  
-        <!-- Carrosel -->
-        <div class="carrosel">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-              <li data-target="#myCarousel" data-slide-to="1"></li>
-              <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
-                  alt="Imagem 1">
-                <div class="carousel-caption">
-                  <h3>Título 1</h3>
-                  <p>Descrição 1</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
-                  alt="Imagem 2">
-                <div class="carousel-caption">
-                  <h3>Título 2</h3>
-                  <p>Descrição 2</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
-                  alt="Imagem 3">
-                <div class="carousel-caption">
-                  <h3>Título 3</h3>
-                  <p>Descrição 3</p>
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button"
-              data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button"
-              data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div>
-        </div>
-        <!-- Fim do carrosel -->
-  
-        <section class="textoprincipal"> <!--texto principal-->
-          <h1 class="titulo1">Quem Somos?</h1>
-  
-          <p id="quemsomos">
-            
-            A Help Mei é um site de logística cujo principal objetivo é garantir a
-            conexão entre os fornecedores e os microempresarios comerciais, a fim
-            de garantir que projetos de revendas de produtos sejam facilitados.
-            Nossa missão como empresa é de gerenciar e pavimentar o caminho entre
-            fornecedores e revendedores, missão esta que viemos cumprindo com
-            excelência, ajudando milhares de pessoas.
-  
-            Como empresa, nós sabemos a dificuldade logística existente na
-            conexão, transporte e gerenciamento entre os produtos e seus
-            fornecedores, porém com o nosso profissionalismo de qualidade
-            conseguimos atenuar todas essas dificuldades existentes e garantir a
-            felicidade de nosso público alvo.
-  
-            Nós somos o backstage de muitas revendas de produtos.</p>
-        </section>
-  
-        <section class="form-section">
-          <div class="form-titulo">
-            <h2>Fale Conosco</h2>
-          </div>
-          <form name="contact" netlify>
-            <div class="form-group">
-              <label for="name">Nome</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="message">Mensagem</label>
-              <textarea id="message" name="message" required></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit">Enviar</button>
-            </div>
-          </form>
-        </section>
+</head>
+<body>
+<!-- cookies alert -->
+<div class="alert alert-dark alert-dismissible fade show cookie-alert d-flex
+  justify-content-between align-items-center" role="alert">
+  <div class="cookie-alert-text">
+    Nós da HelpMEi usamos cookies para aprimorar sua experiência no website.
+    Ao continuar navegando, você concorda com o uso de cookies.
+    <a href="#" class="cookie-policy-link">Saiba mais</a>.
+  </div>
+  <button type="button" class="btn btn-primary cookie-alert-btn"
+    data-dismiss="alert" aria-label="Close">Aceitar</button>
 </div>
-    </main>
 
-    <script>
-      $(document).ready(function(){
-        $('.carousel').carousel();
-      });
-    </script>
+<header>
+  <section class="top-nav">
+    <div>
+      <a href="index.html"><img src="src/icon.png" width="70px" height="70"></a>
+      <a id="title">Help Mei</a>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+    <div class='menu-button'></div>
+  </label>
+    <ul class="menu">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="fornecedores.html">Fornecedores</a></li>
+    </ul>
+  </section>
+</header>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"></script>
 
-    <footer> 
-      <!--Rodapé com icones de redirecionamento para redes sociais-->
-      
-      <div class="icons"> 
-
-        <!-- whatsapp -->
-        <a class="inline_block opacity" href="https://api.whatsapp.com/send/?phone=5575999487558&text=Ol%C3%A1%2C+gostaria+de+solicitar+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-          <img id="whatsapp" src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="Logo whatsapp" height="24" width="23">
-        </a>
-
-        <!-- youtube -->
-        <a class="inline_block opacity" href="https://www.youtube.com/watch?v=j2eY2ZUoDCo" target="_blank" rel="noopener noreferrer">
-          <img id="footer_youtube" src="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" alt="Logo YouTube" width="24" height="24">
-        </a>
-
-        <!-- instagram -->
-        <a class="inline_block opacity" href="https://instagram.com/The_mental.gallery" target="_blank" rel="noopener noreferrer">
-          <img id="footer_instagram" src="https://cdn-icons-png.flaticon.com/512/4923/4923005.png" alt="Logo instagram" width="24" height="24">
-        </a>
+<main> <!--Parte principal de texto-->
+  <div class="conteudo">  
+    <div><p class="initial">Início</p></div> 
+      <!-- Carrosel -->
+      <div class="carrosel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
+                alt="Imagem 1">
+              <div class="carousel-caption">
+                <h3>Título 1</h3>
+                <p>Descrição 1</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
+                alt="Imagem 2">
+              <div class="carousel-caption">
+                <h3>Título 2</h3>
+                <p>Descrição 2</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://www.homehost.com.br/blog/wp-content/uploads/2019/07/html_img-1024x401.png"
+                alt="Imagem 3">
+              <div class="carousel-caption">
+                <h3>Título 3</h3>
+                <p>Descrição 3</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button"
+            data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button"
+            data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
       </div>
-      <p class="copyright">
-        HelpMei! 2023 © Todos os direitos reservados.
-      </p>
-    </footer>
-  </body>
+      <!-- Fim do carrosel -->
+
+    <section class="textoprincipal"> <!--texto principal-->
+      <h1 class="titulo1">Quem Somos?</h1>
+
+      <p id="quemsomos">
+        
+        A Help Mei é um site de logística cujo principal objetivo é garantir a
+        conexão entre os fornecedores e os microempresarios comerciais, a fim
+        de garantir que projetos de revendas de produtos sejam facilitados.
+        Nossa missão como empresa é de gerenciar e pavimentar o caminho entre
+        fornecedores e revendedores, missão esta que viemos cumprindo com
+        excelência, ajudando milhares de pessoas.
+
+        Como empresa, nós sabemos a dificuldade logística existente na
+        conexão, transporte e gerenciamento entre os produtos e seus
+        fornecedores, porém com o nosso profissionalismo de qualidade
+        conseguimos atenuar todas essas dificuldades existentes e garantir a
+        felicidade de nosso público alvo.
+
+        Nós somos o backstage de muitas revendas de produtos.</p>
+    </section>
+
+    <section class="form-section">
+      <div class="form-titulo">
+        <h2>Fale Conosco</h2>
+      </div>
+      <form name="contact" netlify>
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</main>
+
+<script>
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+
+<footer> 
+  <!--Rodapé com icones de redirecionamento para redes sociais-->
+  
+  <div class="icons"> 
+
+    <!-- whatsapp -->
+    <a class="inline_block opacity" href="https://api.whatsapp.com/send/?phone=5575999487558&text=Ol%C3%A1%2C+gostaria+de+solicitar+informa%C3%A7%C3%B5es&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+      <img id="whatsapp" src="https://cdn-icons-png.flaticon.com/512/3536/3536445.png" alt="Logo whatsapp" height="24" width="23">
+    </a>
+
+    <!-- youtube -->
+    <a class="inline_block opacity" href="https://www.youtube.com/watch?v=j2eY2ZUoDCo" target="_blank" rel="noopener noreferrer">
+      <img id="footer_youtube" src="https://cdn-icons-png.flaticon.com/512/1383/1383260.png" alt="Logo YouTube" width="24" height="24">
+    </a>
+
+    <!-- instagram -->
+    <a class="inline_block opacity" href="https://instagram.com/The_mental.gallery" target="_blank" rel="noopener noreferrer">
+      <img id="footer_instagram" src="https://cdn-icons-png.flaticon.com/512/4923/4923005.png" alt="Logo instagram" width="24" height="24">
+    </a>
+  </div>
+  <p class="copyright">HelpMei 2023 © Todos os direitos reservados.
+  </p>
+</footer>
+</body>
 </html>
