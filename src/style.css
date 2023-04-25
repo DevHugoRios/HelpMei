@@ -106,7 +106,6 @@ body {
 }
 
 * {
-  font-family: "Poppins";
   box-sizing: border-box;
 }
 
@@ -236,7 +235,7 @@ body {
 
 main {
   width: 100%;
-  padding-top: 0.5rem;
+  
 }
 
 .initial {
@@ -255,7 +254,7 @@ main {
   font-size: 40px;
   font-family: 'Shrikhand';
   letter-spacing: 4px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .textoprincipal {
@@ -267,8 +266,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 30px;
 
 }
+
+#imagemcarrosel{
+  border-radius: 30px;
+} 
 
 img {
   border-radius: 30px;
