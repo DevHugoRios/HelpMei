@@ -106,16 +106,13 @@ body {
 }
 
 #title {
-
   text-align: center;
   margin-left: 830px;
-
-
 }
 
 
 * {
-  font-family: "Poppins";
+ 
   box-sizing: border-box;
 }
 
@@ -296,6 +293,26 @@ a:link {
 a:hover {
   opacity: 70%;
 }
+
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 1.5em
+}
+
+.estrelas label i.fa:before{
+  content:'\f005';
+  color: #FC0;
+}
+
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+
+
 
 /*--------------------------FOOTER--------------------------------*/
 

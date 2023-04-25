@@ -117,7 +117,7 @@ body {
   background-color: #488CB0;
   color: #FFF;
   height: 50px;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .menu {
@@ -258,8 +258,12 @@ main {
 }
 
 .textoprincipal {
-  margin: 80px;
+  margin: 30px;
   text-align: justify;
+}
+
+iframe{
+  margin-bottom: 60px;
 }
 
 .carrosel {
