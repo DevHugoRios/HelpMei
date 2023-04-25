@@ -92,11 +92,9 @@ h2 {
 }
 
 #title {
-
   text-align: center;
-  margin-left: 830px;
-
-
+  font-family: 'shrikhand';
+  font-style: italic;
 }
 
 html,
