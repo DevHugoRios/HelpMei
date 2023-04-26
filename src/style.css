@@ -107,17 +107,10 @@ body {
   box-sizing: border-box;
 }
 
-.top-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+.nav123{
   background-color: #488CB0;
-  color: #FFF;
-  height: 50px;
-  padding: 0.5em;
+  
 }
-
 .menu {
   display: flex;
   flex-direction: row;
