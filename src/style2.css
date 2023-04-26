@@ -8,15 +8,16 @@ main {
 }
 
 @keyframes animate {
-  0%{
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-      border-radius: 0;
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
   }
-  100%{
-      transform: translateY(-1000px) rotate(720deg);
-      opacity: 0;
-      border-radius: 50%;
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
   }
 }
 
@@ -32,6 +33,7 @@ main {
   overflow: hidden;
   z-index: -99999;
 }
+
 .background li {
   position: absolute;
   display: block;
@@ -51,6 +53,7 @@ main {
   animation-delay: 1s;
   z-index: -9999;
 }
+
 .background li:nth-child(1) {
   left: 19%;
   width: 105px;
@@ -59,6 +62,7 @@ main {
   animation-delay: 5s;
   z-index: -9999;
 }
+
 .background li:nth-child(2) {
   left: 30%;
   width: 100px;
@@ -67,6 +71,7 @@ main {
   animation-delay: 8s;
   z-index: -9999;
 }
+
 .background li:nth-child(3) {
   left: 67%;
   width: 152px;
@@ -75,6 +80,7 @@ main {
   animation-delay: 3s;
   z-index: -9999;
 }
+
 .background li:nth-child(4) {
   left: 9%;
   width: 155px;
@@ -83,6 +89,7 @@ main {
   animation-delay: 16s;
   z-index: -9999;
 }
+
 .background li:nth-child(5) {
   left: 29%;
   width: 127px;
@@ -112,13 +119,13 @@ body {
 
 
 * {
- 
+
   box-sizing: border-box;
 }
 
-.nav123{
+.nav123 {
   background-color: #488CB0;
-  
+
 }
 
 .menu {
@@ -291,16 +298,17 @@ a:hover {
 .estrelas input[type=radio] {
   display: none;
 }
-.estrelas label i.fa{
+
+.estrelas label i.fa {
   font-size: 1.5em
 }
 
-.estrelas label i.fa:before{
-  content:'\f005';
+.estrelas label i.fa:before {
+  content: '\f005';
   color: #FC0;
 }
 
-.estrelas input[type=radio]:checked ~ label i.fa:before {
+.estrelas input[type=radio]:checked~label i.fa:before {
   color: #CCC;
 }
 
